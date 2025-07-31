@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-left: 80px;
+}
+
+p {
+    font-family: "Roboto Slab";
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    padding-top: 50px;
+    padding-bottom: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-item{
+    border-bottom: 1px dashed gray;
+}
+
+.sidebar-link{
+    text-decoration: none;
+}

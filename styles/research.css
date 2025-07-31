@@ -1,0 +1,173 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-left: 80px;
+}
+
+
+.sidebar{
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-item{
+    border-bottom: 1px dashed gray;
+}
+
+.sidebar-link{
+    text-decoration: none;
+}
+
+.design-header-container{
+    margin:0;
+    padding:0;
+    height: 300px;
+    width: auto;
+    background-image: url('../images/research-n.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-bottom: 2px solid rgba(17, 208, 157, 0.241);
+}
+
+.welcome-text{
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 75px;
+    text-shadow: 0px 2px 15px rgb(255, 255, 255);
+}
+
+.desc-text{
+    font-family: "Roboto Slap", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 50px 50px;
+    text-align: justify;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: beige;
+}
+
+.item-container{
+    margin: 40px 50px;
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.724); */
+    box-shadow: 2px 2px 15px rgba(130, 130, 130, 0.421);
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.item-container:nth-child(odd){
+    background-color: rgba(173, 216, 230, 0.2);
+}
+
+.item-container h2{
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid gray;
+}
+
+.item-container p{
+    font-family: "Slabo 27px";
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+    margin: 10px 0 20px;
+}
+
+.tumor-img, .tube-img{
+    float: left;
+    width: 420px;
+    height: 100%;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.video-tumor{
+    display: block;
+    margin: 20px auto;
+}
+
+.item-container p.video-caption {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.github-ref{
+    display: block;
+    width: 600px;;
+    font-size: 1.5em;
+    margin: 40px auto 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.155);
+    text-decoration: none;
+    box-shadow: 2px 5px 10px rgba(133, 131, 131, 0.205);
+}
+
+.item-container h3{
+    font-size: 1.5em;
+    color: blueviolet;
+}
+
+
+.img-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto 10px;
+}
+
+.img-container img{
+    width: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.paper-links{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.image-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 50px 0;
+    row-gap: 25px;
+    padding: 15px;
+}
+
+.image-grid-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-grid-container img{
+    height: 300px;
+    min-height: 300px;
+    width:600px;
+    object-fit: cover;
+    border-radius: 10px;
+}

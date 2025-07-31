@@ -1,0 +1,377 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-left: 80px;
+}
+
+
+.sidebar{
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-item{
+    border-bottom: 1px dashed gray;
+}
+
+.sidebar-link{
+    text-decoration: none;
+}
+
+.cv-header-container{
+    margin:0;
+    padding:0;
+    height: 300px;
+    background-image: url('../images/resume.jpg');
+    background-size: cover;
+    background-position: top; 
+    background-repeat: no-repeat;
+}
+
+.table-of-contents{
+  background-color: #f0f8ff87;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.table-of-contents p{
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.table-of-contents ul {
+  list-style: none; /* removes default bullets */
+  padding-left: 0px;
+}
+
+.table-of-contents li {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.table-of-contents li::before {
+  content: "›"; /* or use ">" or any symbol you like */
+  color: #007acc;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5em;
+  margin-left: 25px;
+}
+
+.table-of-contents a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+.table-of-contents a:hover {
+    text-decoration: underline;
+    color: #005a99;
+}
+
+.main-container h1{
+    padding: 20px 0 5px;
+    margin: 0 20px 35px;
+    border-bottom: 2px solid rgba(121, 113, 113, 0.718);
+}
+
+.main-container h2{
+    padding-left:25px;
+    color: blue;
+}
+
+.education:nth-child(odd){
+    background-color: lightcyan;
+}
+
+.education:nth-child(even){
+    background-color: rgba(56, 195, 242, 0.327);
+}
+
+.main-container{
+    padding-bottom: 10px;
+}
+
+.education-section{
+    background-color: rgba(231, 227, 227, 0.537);
+}
+
+.experiences{
+    background-color: white;
+}
+
+.experience:nth-child(odd) {
+    background-color: rgba(186, 255, 201, 0.414);
+}
+
+.experience:nth-child(even) {
+    background-color: rgba(167, 230, 9, 0.136);
+}
+
+
+.item-box{
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(158, 155, 155);
+}
+
+.item-description{
+    padding: 0 50px;
+}
+
+.institution-date, .role-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.institution-date .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: gray;
+    margin: 0 10px;
+}
+
+.role-date .line{
+    flex-grow: 1;
+    height: 1px;
+    background-color: gray;
+    margin: 0 10px;
+}
+
+.institution, .role{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.role{
+    font-size: 1.15em;
+}
+
+.role-description {
+    margin-top: -10px;
+    padding-left: 20px;
+}
+
+.duties-list{
+    line-height: 30px;
+    padding-top: 3px;
+    margin-top: 5px;
+}
+
+.skills{
+    background-color: rgba(231, 227, 227, 0.537);
+}
+
+.skills h4{
+    display: inline-block;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(221, 183, 224);
+
+}
+
+
+.skills-list {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+  max-width: 400px;
+}
+
+.skills-list li {
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #333;
+  padding: 0 15px;
+}
+
+.skill-bar {
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.skill-level {
+  height: 100%;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border-radius: 6px 0 0 6px;
+}
+
+
+
+.skills-box{
+    background-color: white;
+}
+
+
+.connected-box{
+    display: flex;
+
+}
+
+.gta{
+    flex: 1;
+    padding-left: 15px;
+}
+
+.dot-line-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+.dot-line-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.line-of-dot{
+    width: 2px;
+    flex: 1;
+    background-color: black;
+}
+
+.skills-box h2{
+    color: black;
+}
+
+
+.papers:nth-child(odd) {
+    background-color: rgba(128, 128, 128, 0.216);
+}
+
+.papers:nth-child(even) {
+    background-color: rgba(224, 223, 223, 0.229)
+}
+
+.paper-line{
+    flex-grow: 1;
+    border-top: 1px dashed gray;
+    margin: 0 10px;
+}
+
+.papers h2{
+    color: black;
+}
+
+.paper-title-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.paper-title a{
+    text-decoration: none;
+    font-size: 1.2em
+}
+
+.paper-title a:hover{
+    text-decoration: underline;
+}
+
+.conf-paper-location-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.conf-paper-location-date .paper-line {
+    flex-grow: 1;
+    height: 1px;
+    margin: 0 10px;
+    border-top: 1px dashed gray;
+}
+
+.conf-paper-location {
+    margin-left: 25px;
+}
+
+.conf-paper-link{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.conf-paper-link:hover{
+    text-decoration: underline;
+}
+
+.honors{
+    background-color: rgba(231, 227, 227, 0.537);
+}
+
+.honors-box{
+    background-color: rgba(201, 255, 94, 0.689);
+}
+
+.awards-list{
+    font-size: 1.2em;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.awards-list li{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.certificates-box{
+    background-color: rgba(255, 250, 94, 0.689);
+}
+
+.certificates-list{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    padding-left: 12px;
+}
+
+.certificates-list li{
+    font-size: 1.25em;
+    margin-bottom: 30px;
+    margin-left: 0;
+    padding-left: 0;
+}

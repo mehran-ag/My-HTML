@@ -1,0 +1,53 @@
+.header-container{
+    display: flex;
+    margin:0;
+    padding:0;
+    height: 750px;
+    background-image: url('../images/my_desk.jpeg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+/* .welcome-text{
+    display: inline-block;
+    font-family: "Roboto Slab";
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin: 25px auto auto;
+    text-shadow: 1px 10px 5px rgb(52, 51, 51);
+} */
+
+.welcome-text{
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 120px auto auto;
+    /* color: #0910e9;  */
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2.5px;
+    /* background: linear-gradient(to right, #96c9f5, #00f1feac); */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    -webkit-text-stroke: 1px #333; /* stroke width and color */
+    text-shadow: 20px 80px 3px rgba(52, 51, 51, 0.31);
+}
+
+/* .welcome-text{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #4facfe, #00f2fe, #43e97b, #38f9d7);
+    background-size: 300% auto;
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+} */
