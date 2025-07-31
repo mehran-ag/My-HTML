@@ -186,7 +186,7 @@ body{
         height: 300px;
         min-height: 100px;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 10px;
     }
 }
