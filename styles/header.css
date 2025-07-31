@@ -52,3 +52,15 @@
     
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
 } */
+
+@media (max-width: 768px) {
+    .welcome-text {
+        font-size: 2em;  /* smaller font size for mobile */
+        margin: 60px auto auto;
+    }
+
+    .header-container {
+        height: auto; /* or smaller vh */
+        min-height: 40vh;
+    }
+}
