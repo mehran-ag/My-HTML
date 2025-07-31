@@ -2,7 +2,7 @@
     display: flex;
     margin: 0;
     padding: 0;
-    height: 70vh;
+    height: 50vh;
     max-height: 750px;
     background-image: url('../images/my_desk.jpeg');
     background-size: cover;
@@ -24,12 +24,16 @@
     -webkit-text-stroke: 1px #333;
     text-shadow: 20px 80px 3px rgba(52, 51, 51, 0.31);
     margin: 0 20px; /* some horizontal margin */
+    max-width: 90%;
+    word-break: break-word;
+    white-space: normal; /* Make sure it wraps */
 }
 
 @media (max-width: 768px) {
     .header-container {
-        height: auto;
-        min-height: 40vh;
+        height: 40vh;
+        max-height: 50vh;
+        min-height: 30vh;
         padding: 40px 20px;
     }
 
