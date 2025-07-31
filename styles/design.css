@@ -164,3 +164,22 @@ body{
 .design-item-box:nth-child(odd){
     background-color: rgba(228, 228, 228, 0.443);
 }
+
+
+@media (max-width: 900px) {
+    .image-grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px 50px 0;
+        row-gap: 25px;
+        padding: 15px;
+    }
+
+    .image-grid-container img{
+        height: 300px;
+        min-height: 100px;
+        width: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+}

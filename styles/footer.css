@@ -53,6 +53,10 @@
     .contact-list{
         list-style-type: none;
         line-height: 45px;
-    } 
+    }
+
+    .contact-list a{
+        font-size: 1em;
+    }
 
 }
