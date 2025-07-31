@@ -11,7 +11,7 @@
 .footer-container h2{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 50px;
-    margin-left: 25px;
+    margin-left: 3%;
 }
 
 .icon{
@@ -19,7 +19,6 @@
     background-color: transparent;
     border-radius: 5px;
     vertical-align: middle;
-    margin-left: 35px;
 }
 
 .email-title{
@@ -41,5 +40,5 @@
 .contact-list{
     list-style-type: none;
     line-height: 45px;
-    padding-left: 20px;
+    padding-left: 5%;
 }
