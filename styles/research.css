@@ -166,27 +166,34 @@ body{
 
 .image-grid-container img{
     height: 300px;
-    min-height: 300px;
-    width:600px;
+    min-height: 100px;
+    width: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 
 
 @media (max-width: 900px) {
-    .image-grid-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: 10px 50px 0;
-        row-gap: 25px;
-        padding: 15px;
+    body {
+        padding-left: 0;
     }
 
-    .image-grid-container img{
-        height: 300px;
-        min-height: 100px;
+    .sidebar {
+        position: static;
         width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+
+    .image-grid-container {
+        grid-template-columns: 1fr;
+        margin: 10px 15px 0;
+    }
+
+    .image-grid-container img {
+        width: 100%;
+        height: auto;
         object-fit: contain;
-        border-radius: 10px;
     }
 }
