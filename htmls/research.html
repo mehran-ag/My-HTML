@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Mehran A. Ghazani's Research
+        </title>
+        <link rel="stylesheet" href="../styles/research.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Slabo+27px&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="sidebar-item">
+                <a class="sidebar-link" href="../index.html">Home</a>
+            </div>
+            <div class="sidebar-item">
+                <a class="sidebar-link" href="../htmls/cv.html">CV</a>
+            </div>
+            <div class="sidebar-item">
+                <a class="sidebar-link" href="research.html">Research</a>
+            </div>
+            <div class="sidebar-item">
+                <a class="sidebar-link" href="../htmls/design.html">My Designs</a>
+            </div>
+        </div>
+        <div class="design-header-container">
+            <p class="welcome-text">
+                My Research
+            </p>
+        </div>
+        <div class="desc-container">
+            <p class="desc-text">
+                My research includes mechanical and biomedical sciences. I have studied Mechanical Engineering and therefore I have interest in mechanical phenomena. I have done research on the methods to increase heat transfer and efficiency in heat transfering devices. This includes both ecperimental and numerical research that includes coding and simulation. On the other hand, I am interested in coding. So, I have used my coding skills in the simulation of physiological phenomena. One of these phenomena is the study of cancer. I have developed a code which simulates the growth of a solid tumour at different scenarios and conditions. The crosssection of these two is my PhD where I use thermodynamics to verify numerical models of physiological systems.
+            </p>
+        </div>
+
+        <div class="item-container">
+            <h2>
+                Verification of numerical models
+            </h2>
+            <p>
+                Verification is the process of determining if we are doing the right job based on our plan and concept.  We are checking to see if we are missing any points and if we are doing the right job. As it is seen in the picture left to this paragraph, in the verification step, we are checking to see if we are making two sleeves or not (based on the plan), the size is the correct one or not, the color of the raw material is blue or not, and if we are missing any buttons? Just to note that we haven't tested and compared it with the real world yet. If we follow the construction rules correct, then we will be able to compare it to the real world.
+
+            </p>
+            <h3>Mariner 1 catastrophe</h3>
+            <p>
+                Now, I will give you an example of system failure due to an inadvertent error that resulted in mission failure!!
+                Mariner 1, built to conduct the first American planetary flyby of Venus, was the first spacecraft of NASA's interplanetary Mariner program. Developed by Jet Propulsion Laboratory, and originally planned to be a purpose-built probe launched in the summer of 1962, Mariner 1's design was changed when the Centaur proved unavailable at that early date. Mariner 1 (and its sibling spacecraft, Mariner 2), were then adapted from the lighter Ranger lunar spacecraft. Mariner 1 carried out a suite of experiments to determine the temperature of Venus as well as to measure magnetic fields and charged particles near the planet and in interplanetary space.
+                Mariner 1 was launched by an Atlas-Agena rocket from Cape Canaveral's Pad 12 on July 22, 1962. Shortly after liftoff, errors in communication between the rocket and its ground-based guidance systems caused the rocket to veer off course, and it had to be destroyed by range safety. The errors were traced to a mistake in the hand-written guidance equations specification which were then codified in the computer program.
+                If they had a verification tool to verify the correctness of their model automatically, it would never have happened!!
+            </p>
+            <p style="font-size: 1.1em;">
+                Reference: <a href="Reference: https://science.nasa.gov/mission/mariner-1/">https://science.nasa.gov/mission/mariner-1</a>
+            </p>
+            <div class="img-container">
+                <img src="../images/mariner.png">
+                <p>Mariner 1</p>
+            </div>
+            <p>
+                Biological systems are a part of this universe and so these systems must obey the laws of physics. Anything in this universe cannot fall beyond the laws of physics and thermodynamics. As engineers, we use our knowledge from different engineering fields to understand the human body. Then, we can make human models and do tests on that rather than a real human or an animal with ethical issues and high costs. But something is very important here. How do we ensure that our model will work fine without having much information on the system being modeled?
+                Here comes the verification process. It is the process of testing the model's validity before it is put to work. This is done by verifying the correctness of the model based on the laws of physics and thermodynamics.
+                Other than that, we know that the human body is a complex system comprising many parts from nanoscale to macroscale working together. Knowledge of Mechanical and Electrical Engineering, as well as Chemistry is required in most systems of human bodies. A tool is required to help scientists test their models when they try different hypotheses to find new formulations to unravel the unknowns of human body. I have developed a tool using Python that can help scientists achieve this goal just by a simple command in Python.
+            </p>
+            <p style="font-size: 1em; margin-bottom: 0;">
+                Refer to the following paper for more information:
+            </p>
+            <a class="paper-links" href="https://doi.org/10.1098/rspa.2023.0807" target="_blank">A review of the diverse applications of bond graphs in biology and physiology</a>
+
+
+            
+            <a class="github-ref" href="https://github.com/Mehran-AG/BioMLVerify" target="_blank">Visit my GitHub repo for this code developed in Python</a>
+        </div>
+
+        <div class="item-container">
+            <h2>
+                Numerical and experimental simulation of air flow over oval finned tubes used in heat exchangers
+            </h2>
+            <img class="tube-img" src="../images/finned-tubes.png">
+            <p>
+                A heat exchanger is a device that facilitates the process of heat exchange between two fluids that are at different temperatures. Heat exchangers are used in both cooling and heating processes. Heat exchangers are used in many engineering applications, such as refrigeration, heating and air conditioning systems, power plants, chemical processing systems, food processing systems, automobile radiators, and waste heat recovery units. Air preheaters, economizers, evaporators, superheaters, condensers, and cooling towers used in a power plant are a few examples of heat exchangers. The classic example of a heat exchanger can be found in an internal combustion engine in which a circulating fluid known as engine coolant flows through radiator coils and air flows past the coils, which cools the coolant and heats the incoming air.
+            </p>
+            <p>
+                In my papers on oval finned tubes, at first using a finned oval tube, we developed a computer model to study the effect of fin spacing and height on the efficiency of the tube in transferring heat. We used Solidworks to make the 3 dimensional object and studied it in Ansys Fluent. Later, we studied how finned oval tube bundles perform in cross-flow heat exchangers, offering a promising alternative to traditional circular tubes. Using thermal imaging and smoke visualization techniques, we analyzed how variations in tube spacing and arrangement affect flow patterns, heat transfer, and pressure drop. We identified three distinct flow regimes and showed that smaller tube pitches significantly improve thermal performance—boosting the Nusselt number by up to 25%. Our findings suggest that finned oval tubes are particularly efficient at low and high Reynolds numbers, making them ideal for energy-conscious industrial applications.
+            </p>
+            <p style="font-size: 1em; margin-bottom: 0;">
+                Refer to the following papers for more information:
+            </p>
+            <a class="paper-links" href="https://doi.org/10.1016/j.ijheatmasstransfer.2021.121759" target="_blank">Experimental investigation of thermal-hydraulic characteristics of finned oval tube bundles in cross-flow arrangements</a>
+            <a class="paper-links" href="https://doi.org/10.1016/j.ijthermalsci.2019.106255" target="_blank">Experimental study and numerical simulation of thermal hydraulic characteristics of a finned oval tube at different fin configurations</a>
+
+            <div class="img-container">
+                <img src="../images/tube-bundles.png">
+                <p style="font-size: 1em;">Flow behaviors demonstrated for three aforementioned groups</p>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h2>
+                Simulation of a solid tumor
+            </h2>
+            <img class="tumor-img" src="../images/tumor-microenv.png">
+            <p>
+                Cancer is the second leading cause of death in the western countries after cardiovascular diseases. Therefore, it is an important and interesting topic in disease treatment studies. It heavily requires coding to simulate the growth of the tumor with its unique vascular network.
+            </p>
+            <p>
+                As shown in the image, tumors behave remarkably intelligently within tissue, evading various treatments and drugs. They are so adaptive that they exploit the body's own cellular mechanisms for their benefit.
+
+                It is well known that cancerous cells proliferate faster than normal cells. As a result, they require more nutrients. However, the existing vascular network is often insufficient to supply these increased demands. To overcome this, tumor cells secrete signaling molecules—typically involved in wound healing and tissue repair—to stimulate the formation of new blood vessels (a process known as angiogenesis).
+
+                These new vessels sprout from existing ones and grow toward the tumor, forming an expanded vascular network. This enables the tumor to receive more nutrients and oxygen, supporting its continued growth. Over time, the tumor can become large enough to invade surrounding tissues and enter larger blood vessels, facilitating metastasis to other parts of the body.
+            </p>
+            <p>
+                I gain much interest insimulation of this behaviour in tumors. Henceforth, I developed a code using C++ to study tumor size and capability to grow at different scenarios inside a tissue. Please see below the result of my simulation.
+            </p>
+            <p style="font-size: 1em; margin-bottom: 0;">
+                Refer to the following papers for more information:
+            </p>
+            <a class="paper-links" href="https://doi.org/10.1038/s41598-022-13345-4" target="_blank">A spatiotemporal multi-scale computational model for FDG PET imaging at different stages of tumor growth and angiogenesis</a>
+            <a class="paper-links" href="https://doi.org/10.1016/j.apm.2021.12.033" target="_blank">A novel numerical and artificial intelligence based approach to study anti-angiogenic drugs: Endostatin</a>
+            <a class="paper-links" href="https://doi.org/10.1177/09544119211028380" target="_blank">Mathematical simulation and prediction of tumor volume using RBF artificial neural network at different circumstances in the tumor microenvironment</a>
+            <a class="paper-links" href="https://doi.org/10.1111/micc.12584" target="_blank">Mathematical modeling reveals how the density of initial tumor and its distance to parent vessels alter the growth trend of vascular tumors</a>
+
+
+            <video class="video-tumor" autoplay muted loop playsinline width="500">
+                <source src="../videos/tumour-growth.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="video-caption">
+                Simulation of the growth of vessels towards a solid tumor
+            </p>
+        </div>
+
+        <div class="item-container">
+            <h2>
+                Heat channels with elastic walls
+            </h2>
+            
+            <p>
+                Inspired by nature and human anatomy, elastic walls are suggested to be used in heat-transferring channels. Inducing turbulence in fluid flows is considered a way to increase heat transfer since hot and cold fluids can be mixed quickly instead of conducting heat by diffusion. Therefore, the idea of using elastic walls in channels has been proposed to induce turbulence in the flow when required. The wall can be kept still and rigid in normal conditions and can be deformed to the desired shape when required.
+                Comsol Multiphysics is a powerful simulation tool that uses Finite Element Method to solve the mathematial equations governing physical phenomena. This makes it a powerful tool in studying coupled simulation of a moving wall and fluid flow. Henceforth, we used Comsol to study the impacts of an elastic wall embedded in a channel on heat transfer. The upper wall of the channel is considered to be artificially roughened and heated. The bottom wall had an ealstic wall that could move inside to narrow down the passage to speed up flow movement in the area and increase heat transfer when needed. This method can be used in solar pannels to increase heat transfer. It can also be used in important devices to avoid system failure in emergency situations when rapid cooling is required other than normal conditions.
+            </p>
+            <p style="font-size: 1em; margin-bottom: 0;">
+                Refer to the following paper for more information:
+            </p>
+            <a class="paper-links" href="https://doi.org/10.1177/09544062231172840" target="_blank">Heat transfer enhancement in channels with roughened and elastic walls</a>
+            <div class="img-container">
+                <img src="../images/elastic-walls.png">
+                <p style="font-size: 1em;">Effect of the elastic wall on flow perturbation and incrase of heat transfer</p>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h2>
+                A counterflow wet cooling tower
+            </h2>
+            
+            <p>
+                Counterflow wet cooling towers are used in power plants and large companies to cool down the working fluid, usually water. Many devices in plants produce heat as they work e.g.,  reactors, turbines, and compressors. They are required to be maintained at a fixed temperature range to work properly. Mostly water is used to cool down the device. This heated water needs to be cooled down to be able to do the cooling job again. Therefore, cooling towers are used to do this job and reject the waste heat in the atmosphere. Two types of cooling towers are mostly used: wet and dry cooling towers. In wet cooling towers, there is direct contact between water and the atmospheric air. Tower efficiency is higher in these cooling towers but some part of the water needs to be evaporated to cool down the remaining water. In dry cooling towers, there is no direct contact between water and air since the water passes through tubes and the air cools down the water by contacting the tube. Consequently, cooling towers are a necessary part of industrial plants. Therefore, studying their efficiency and its increase is of great importance to the industry.
+                I have done experimental research on a laboratory-scale counterflow wet cooling tower. We have used a new type of filling, which is used to increase the contact between air and water flowing through the tower. the tower's energy and exergy efficiency have been calculated based on the experimental measurements. A computer code has been developed to evaluate the tower's efficiency. Optimum working conditions have been suggested for the tower based on the second law of thermodynamics.
+            </p>
+            <p style="font-size: 1em; margin-bottom: 0;">
+                Refer to the following paper for more information:
+            </p>
+            <a class="paper-links" href="https://doi.org/10.1016/j.applthermaleng.2017.07.090" target="_blank">A comprehensive analysis of a laboratory scale counter flow wet cooling tower using the first and the second laws of thermodynamics</a>
+            <div class="image-grid-container">
+                <div>
+                    <div class="img-container">
+                        <img src="../images/cooling-tower-schem.jpg">
+                        <p>Cooling tower</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <img src="../images/large-cooling-tower.png">
+                        <p>A large cooling tower</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
