@@ -56,13 +56,13 @@
     }
 
     .my-img-container {
-        width: 100%;
+        width: 80%;
         margin: 30px 50px;
     }
 
     .my-intro-text {
         padding: 0 20px;
         font-size: 1em;
-        line-height: 32px;
+        line-height: 1.5em;
     }
 }
