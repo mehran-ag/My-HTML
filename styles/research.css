@@ -102,11 +102,12 @@ body{
     border: none;
 }
 
-.video-tumor{
+.video-tumor {
     display: block;
     margin: 1.5rem auto;
-    width: 500px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 .item-container p.video-caption {
@@ -233,11 +234,5 @@ body{
         align-items: center;
         justify-content: center;
         margin: 3% auto 1%;
-    }
-
-    .video-tumor{
-        display: block;
-        margin: 1.5rem auto;
-        width: 90%;
     }
 }
