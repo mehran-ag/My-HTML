@@ -130,7 +130,10 @@ body{
 
 .video-kiwi{
     display: block;
-    margin: 4% auto;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
 }
 
 .design-item-box p.video-caption {
@@ -221,13 +224,6 @@ body{
         width: 100%;
         max-height: 400px; /* or adjust as needed */
         object-fit: contain;
-
     }
 
-
-    .video-kiwi{
-        display: block;
-        margin: 3% auto;
-        width: 90%;
-    }
 }
