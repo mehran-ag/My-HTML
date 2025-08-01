@@ -32,9 +32,9 @@ body{
 }
 
 .design-header-container{
-    margin:0;
-    padding:0;
-    height: 300px;
+    margin: 0;
+    padding: 0;
+    height: 40vh;
     background-image: url('../images/solid-airplane.jpg');
     background-size: cover;
     background-position: top; 
@@ -42,9 +42,8 @@ body{
 }
 
 .welcome-text{
-    margin-top: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
+    font-size: 4rem;
     color: rgb(0, 0, 0);
     text-align: center;
     padding-top: 75px;

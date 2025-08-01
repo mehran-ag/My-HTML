@@ -32,10 +32,10 @@ body{
 }
 
 .design-header-container{
-    margin:0;
-    padding:0;
-    height: 300px;
-    width: auto;
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    width: 100%;
     background-image: url('../images/research-n.jpg');
     background-size: cover;
     background-position: center; 
@@ -44,33 +44,32 @@ body{
 }
 
 .welcome-text{
-    margin-top: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
+    font-size: 4rem;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding-top: 75px;
+    justify-content: center;
     text-shadow: 0px 2px 15px rgb(255, 255, 255);
 }
 
 .desc-text{
     font-family: "Roboto Slap", sans-serif;
-    font-size: 20px;
-    line-height: 30px;
-    margin: 50px 50px;
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    margin: 2% 2%;
     text-align: justify;
     border: 1px solid gray;
     border-radius: 5px;
-    padding: 20px;
+    padding: 5%;
     background-color: beige;
 }
 
 .item-container{
-    margin: 40px 50px;
+    margin: 2%;
     /* border-bottom: 2px solid rgba(0, 0, 0, 0.724); */
     box-shadow: 2px 2px 15px rgba(130, 130, 130, 0.421);
-    padding: 20px;
-    border-radius: 7px;
+    padding: 5%;
+    border-radius: 1rem;
 }
 
 .item-container:nth-child(odd){
@@ -79,101 +78,95 @@ body{
 
 .item-container h2{
     font-family: "Roboto Slab";
-    font-size: 30px;
+    font-size: 1.8rem;
     padding-bottom: 15px;
     border-bottom: 2px solid gray;
 }
 
 .item-container p{
     font-family: "Slabo 27px";
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 1.3rem;
+    line-height: 1.5em;
     text-align: justify;
-    margin: 10px 0 20px;
+    margin: 1% 0 2%;
 }
 
 .tumor-img, .tube-img{
     float: left;
-    width: 420px;
+    width: 40%;
     height: 100%;
-    margin-right: 20px;
-    margin-bottom: 5px;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
     border: none;
 }
 
 .video-tumor{
     display: block;
-    margin: 20px auto;
+    margin: 1.5rem auto;
 }
 
 .item-container p.video-caption {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1rem;
 }
 
 .github-ref{
     display: block;
-    width: 600px;;
+    width: 50%;
     font-size: 1.5em;
-    margin: 40px auto 30px;
+    margin: 4% auto 2%;
     text-align: center;
     border-radius: 5px;
-    padding: 8px;
+    padding: .8em;
     background-color: rgba(128, 128, 128, 0.155);
     text-decoration: none;
     box-shadow: 2px 5px 10px rgba(133, 131, 131, 0.205);
 }
 
 .item-container h3{
-    font-size: 1.5em;
+    font-size: 1.2rem;
     color: blueviolet;
 }
 
 
 .img-container {
-    width: 50%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 30px auto 10px;
+    margin: 3% auto 1%;
 }
 
 .img-container img{
-    width: 600px;
-    object-fit: cover;
+    width: 100%;
+    object-fit: contain;
     border-radius: 10px;
 }
 
 .paper-links{
-    margin-bottom: 5px;
+    margin-bottom: .5rem;
     display: block;
 }
 
 .image-grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 10px 50px 0;
-    row-gap: 25px;
-    padding: 15px;
+    margin: 1% 3% 0;
+    row-gap: 1%;
+    padding: 1.5%;
 }
 
-.image-grid-container div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .image-grid-container img{
-    height: 300px;
-    min-height: 100px;
     width: 100%;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
     border-radius: 10px;
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     body {
         padding-left: 0;
     }
@@ -188,12 +181,8 @@ body{
 
     .image-grid-container {
         grid-template-columns: 1fr;
-        margin: 10px 15px 0;
-    }
-
-    .image-grid-container img {
-        width: 100%;
-        height: auto;
-        object-fit: contain;
+        margin: 1% 3% 0;
+        column-gap: 1%;
+        padding: 1.5%;
     }
 }
