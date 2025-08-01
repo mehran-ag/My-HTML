@@ -184,7 +184,8 @@ body{
     border-bottom: 2px solid rgba(128, 128, 128, 0.3);
     text-align: center;
     margin: 0 auto 2%;
-    word-break: break-word;
+    overflow-wrap: break-word;  /* modern replacement for word-break: break-word */
+    white-space: normal;        /* allow wrapping */
 }
 
 .waipa-img{
@@ -251,6 +252,10 @@ body{
         width: 100%;
         max-height: 400px; /* or adjust as needed */
         object-fit: contain;
+    }
+
+    .waiparuru h2 {
+        max-width: 90%;  /* allow wider container on small screens */
     }
 
 }
