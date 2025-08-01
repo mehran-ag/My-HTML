@@ -65,16 +65,21 @@ body{
     word-break: break-word;
 }
 
-.desc-text{
-    font-family: "Roboto Slap", sans-serif;
-    font-size: 1.1rem;
-    line-height: 1.5em;
-    margin: 2% 2%;
-    text-align: justify;
+.desc-container{
+    width: 96%;
+    max-width: 100%;
     border: 1px solid gray;
     border-radius: 5px;
-    padding: 5%;
+    padding: 2%;
     background-color: beige;
+    margin: 2%;
+}
+
+.desc-text{
+    font-family: "Slabo 27px", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    text-align: justify;
 }
 
 .item-container{
@@ -94,7 +99,7 @@ body{
 .item-container h2{
     font-family: "Roboto Slab";
     font-size: 1.8rem;
-    padding-bottom: 15px;
+    padding-bottom: 2%;
     border-bottom: 2px solid gray;
 }
 
@@ -147,7 +152,7 @@ body{
 }
 
 .single-img-container {
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;

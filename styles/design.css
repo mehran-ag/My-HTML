@@ -80,11 +80,31 @@ body{
     width: 95%;
     margin: 2% 2%;
     padding-top: 4%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(4px);
+    clip-path: polygon(
+    20px 0, /* top-left triangle cut */
+    calc(100% - 20px) 0,
+    100% 20px,
+    100% calc(100% - 20px),
+    calc(100% - 20px) 100%,
+    20px 100%,
+    0 calc(100% - 20px),
+    0 20px
+  );
+}
+
+.design-item-box:nth-child(odd){
+    background: linear-gradient(to bottom, rgba(223, 235, 248, 0.35), rgba(255, 255, 255, 0.6));
+}
+
+.design-item-box:nth-child(even) {
+    background: linear-gradient(to bottom, rgba(237, 234, 250, 0.35), rgba(255, 255, 255, 0.65));
 }
 
 .kiwi-bird h2, .uoa-logo h2{
-    width: 70%;
-    padding: 2% 1%;
+    width: 50%;
+    padding: 1% 1%;
     border-top: 2px solid rgba(128, 128, 128, 0.3);
     border-bottom: 2px solid rgba(128, 128, 128, 0.3);
     text-align: center;
@@ -98,6 +118,7 @@ body{
     font-size: 1.2rem;
     text-align: justify;
 }
+
 
 
 .image-grid-container{
@@ -147,22 +168,22 @@ body{
 }
 
 .abi-logo h2{
-    width: 300px;
-    padding: 7px 3px;
+    width: 50%;
+    padding: 1% 1%;
     border-top: 2px solid rgba(128, 128, 128, 0.3);
     border-bottom: 2px solid rgba(128, 128, 128, 0.3);
     text-align: center;
-    margin: 0 auto 20px;
+    margin: 0 auto 2%;
 }
 
 
 .waiparuru h2{
-    width: 500px;
-    padding: 7px 3px;
+    width: 50%;
+    padding: 1% 1%;
     border-top: 2px solid rgba(128, 128, 128, 0.3);
     border-bottom: 2px solid rgba(128, 128, 128, 0.3);
     text-align: center;
-    margin: 0 auto 20px;
+    margin: 0 auto 2%;
 }
 
 .waipa-img{
@@ -173,9 +194,8 @@ body{
     object-fit: contain !important;
 }
 
-.design-item-box:nth-child(odd){
-    background-color: rgba(228, 228, 228, 0.443);
-}
+
+
 
 
 @media (max-width: 1000px) {
