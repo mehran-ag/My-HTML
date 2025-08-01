@@ -72,6 +72,8 @@ body{
     box-shadow: 2px 2px 15px rgba(130, 130, 130, 0.421);
     padding: 5%;
     border-radius: 1rem;
+    width: 100%;
+    max-width: 100%;
 }
 
 .item-container:nth-child(odd){
