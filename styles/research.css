@@ -50,6 +50,8 @@ body{
     text-align: center;
     justify-content: center;
     text-shadow: 0px 2px 15px rgb(255, 255, 255);
+    max-width: 90%;
+    word-break: break-word;
 }
 
 .desc-text{
@@ -139,6 +141,7 @@ body{
 
 .single-img-container img{
     width: 100%;
+    height: auto;
     object-fit: contain;
     border-radius: 10px;
 }
@@ -208,5 +211,16 @@ body{
         margin-right: 1rem;
         margin-bottom: .5rem;
         border: none;
+    }
+
+    .welcome-text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        justify-content: center;
+        text-shadow: 0px 2px 15px rgb(255, 255, 255);
+        max-width: 90%;
+        word-break: break-word;
     }
 }
