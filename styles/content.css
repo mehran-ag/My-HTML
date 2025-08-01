@@ -1,55 +1,55 @@
 .intro-sec{
     max-width: 1200px;
-    margin: 50px auto;
-    margin-right: 20px;
-    padding: 30px;
+    margin: 3% auto;
+    padding: 1%;
     background: linear-gradient(to right, #fdfbfb, #ebedee);
-    border-radius: 20px;
+    border-radius: 2%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     font-family: "Roboto Slab";
     color: #333;
     text-align: center;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .intro-sec h1{
-    font-size: 2.5em;
-    margin-bottom: 15px;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
     color: #2c3e50;
 }
 
 .my-intro-text{
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.3rem;
+    line-height: 1.5em;
     text-align: justify;
-    padding: 0 50px 30px;
-    margin: 10px;
+    margin: 2%;
 }
 
-.intro-img-container{
+.intro-text-img-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: auto auto;
+    margin: 1%;
 }
 
 .my-img-container {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
-    margin-right: 15px;
-    margin-left: 20px;
+    margin: 1% 1%;
 }
 
-.intro-img-container img{
+.my-img-container img{
     width: 100%;
+    height: auto;
     border-radius: 50%;
     object-fit: contain;
     box-shadow: 2px 2px 10px gray;
     
 }
 
-@media (max-width: 900px) {
-    .intro-img-container {
+@media (max-width: 1000px) {
+    .intro-text-img-container {
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -57,12 +57,12 @@
 
     .my-img-container {
         width: 70%;
-        margin: 30px 50px;
+        margin: 2%;
     }
 
     .my-intro-text {
-        padding: 0 20px;
-        font-size: 1em;
+        padding: 1%;
+        font-size: 1.4rem;
         line-height: 1.5em;
     }
 }

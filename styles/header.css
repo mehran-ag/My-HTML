@@ -2,7 +2,8 @@
     display: flex;
     margin: 0;
     padding: 0;
-    height: 50vh;
+    width: 100%;
+    height: 60vh;
     max-height: 750px;
     background-image: url('../images/my_desk.jpeg');
     background-size: cover;
@@ -14,16 +15,15 @@
 }
 
 .welcome-text {
-    font-size: 4em;
+    font-size: 5rem;
     font-weight: 700;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 2.5px;
+    letter-spacing: .1rem;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-stroke: 1px #333;
     text-shadow: 20px 80px 3px rgba(52, 51, 51, 0.31);
-    margin: 0 20px; /* some horizontal margin */
     max-width: 90%;
     word-break: break-word;
     white-space: normal; /* Make sure it wraps */
@@ -34,11 +34,10 @@
         height: 40vh;
         max-height: 50vh;
         min-height: 30vh;
-        padding: 40px 20px;
     }
 
     .welcome-text {
-        font-size: 2em;
+        font-size: 2rem;
         margin: 20px auto;
         -webkit-text-stroke: 0.5px #333;
         text-shadow: 10px 40px 2px rgba(52, 51, 51, 0.3);
