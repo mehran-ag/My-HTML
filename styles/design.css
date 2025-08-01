@@ -127,6 +127,12 @@ body{
     align-items: center;
 }
 
+.video-wrapper {
+    width: 100%;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
 
 .video-kiwi{
     display: block;
