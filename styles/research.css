@@ -232,4 +232,10 @@ body{
         justify-content: center;
         margin: 3% auto 1%;
     }
+
+    .video-tumor{
+        display: block;
+        margin: 1.5rem auto;
+        width: 90%
+    }
 }
