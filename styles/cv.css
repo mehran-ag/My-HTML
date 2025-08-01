@@ -39,8 +39,11 @@ body{
 }
 
 .cv-header-container{
-    margin:0;
-    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
     height: 40vh;
     background-image: url('../images/resume.jpg');
     background-size: cover;
