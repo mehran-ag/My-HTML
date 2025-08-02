@@ -23,8 +23,7 @@ h2{
 }
 
 .sidebar{
-    padding-top: 50px;
-    padding-bottom: 200px;
+    padding: 2em 0;
     position: fixed;
     left: 0;
     top: 0;
@@ -32,12 +31,17 @@ h2{
     width: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .sidebar-item{
     border-bottom: 1px dashed gray;
+    padding-top: 2em;
+    padding-bottom: 0.1em;
+    margin-bottom: 4em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
 .sidebar-link{
