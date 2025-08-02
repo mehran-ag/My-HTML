@@ -114,6 +114,7 @@ body{
 .tumor-img, .tube-img{
     float: left;
     width: 40%;
+    max-width: 350x;
     height: 100%;
     margin-right: 1rem;
     margin-bottom: .5rem;
