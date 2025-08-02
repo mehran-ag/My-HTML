@@ -114,11 +114,14 @@ body{
 .tumor-img, .tube-img{
     float: left;
     width: 40%;
-    max-width: 350x;
-    height: 100%;
+    height: auto;
     margin-right: 1rem;
     margin-bottom: .5rem;
     border: none;
+}
+
+.tumor-img{
+    max-width: 420px;
 }
 
 .video-tumor {
