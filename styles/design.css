@@ -121,6 +121,10 @@ body{
     padding: 2%;
 }
 
+.tumor-img {
+    max-width: 600x;
+}
+
 
 .image-grid-container img{
     height: 300px;
