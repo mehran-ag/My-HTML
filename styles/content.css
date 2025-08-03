@@ -62,6 +62,7 @@
 .section-intro-container {
     width: 46%;
     aspect-ratio: 16 / 9;
+    min-width: 300px;
     height: auto;
     box-shadow: 1px 1px 20px rgba(107, 107, 107, 0.303);
     display: flex;
