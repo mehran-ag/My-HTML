@@ -63,7 +63,6 @@
     width: 46%;
     aspect-ratio: 16 / 9;
     height: auto;
-    min-width: 600px;
     box-shadow: 1px 1px 20px rgba(107, 107, 107, 0.303);
     display: flex;
     flex-direction: column;
