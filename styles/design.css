@@ -154,13 +154,14 @@ body{
     display: block;
     margin: 2rem auto;
     width: 90%;
-    max-width: 500px;
+    max-width: 600px;
     height: auto;
 }
 
 .single-img-container {
     width: 45%;
     min-width: 320px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
