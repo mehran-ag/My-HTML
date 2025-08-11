@@ -160,6 +160,7 @@ body{
 
 .single-img-container {
     width: 45%;
+    min-width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
