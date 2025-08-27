@@ -211,6 +211,28 @@ body{
     object-fit: contain !important;
 }
 
+.silver-fern h2{
+    width: 50%;
+    padding: 1% 1%;
+    border-top: 2px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.3);
+    text-align: center;
+    margin: 0 auto 2%;
+    overflow-wrap: break-word;  /* modern replacement for word-break: break-word */
+    white-space: normal;        /* allow wrapping */
+}
+
+.motor299 h2{
+    width: 50%;
+    padding: 1% 1%;
+    border-top: 2px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.3);
+    text-align: center;
+    margin: 0 auto 2%;
+    overflow-wrap: break-word;  /* modern replacement for word-break: break-word */
+    white-space: normal;        /* allow wrapping */
+}
+
 
 
 
