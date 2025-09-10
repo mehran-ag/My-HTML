@@ -42,13 +42,13 @@
         </div>
         <div class="desc-container">
             <p class="desc-text">
-                My research bridges mechanical and biomedical sciences. With a background in Mechanical Engineering, I have a strong interest in thermal and fluid flow phenomena and their practical applications. I have conducted both experimental and numerical studies focused on improving heat transfer and enhancing the efficiency of heat transfer devices. This work involved extensive coding and simulation to analyze complex thermal and fluid flow behaviors.
+                My work sits at the intersection of engineering, bioinformatics, and data science. I have hands-on experience building computational pipelines in Python and C++ to process large datasets, extract meaningful patterns, and evaluate complex models. During my PhD, I developed algorithms to automate the analysis of biological systems, creating tools to detect mass-action patterns and extract parameters from simulation files. In my master’s and later as a research assistant, I applied neural networks and machine learning techniques to predict tumour behaviour, strengthening my expertise in data-driven modelling. I enjoy tackling challenging problems where coding, mathematics, and data converge to generate insights with real-world impact.
             </p>
             <p class="desc-text">
-                In addition to this, I am passionate about coding and have applied these skills to simulate physiological phenomena. For example, I developed a computational model that simulates the growth of solid tumors under different conditions and scenarios. 
+                I have a strong foundation in mechanical engineering, particularly in thermal and fluid sciences. Alongside my master’s research, I conducted both experimental and numerical investigations aimed at improving heat transfer and enhancing the efficiency of thermal systems. I designed and tested heat transfer devices, while also using advanced simulation tools and coding to analyse complex fluid flow and thermal behaviours. This experience strengthened my understanding of physical systems and complements my computational and data-driven research in bioengineering.
             </p>
             <p class="desc-text">
-                The intersection of thermal-fluid mechanics, biomedical applications, and computational modeling forms the foundation of my PhD research. Specifically, I use the principles of thermodynamics to verify and validate numerical models of physiological systems, ensuring their accuracy and fidelity to real biological processes. As part of this work, I am currently developing a Python package designed to automate the verification of these numerical models, making the process more efficient and accessible to researchers.
+                The intersection of computational modeling, biomedical applications, and thermal-fluid mechanics forms the foundation of my PhD research. Specifically, I use the data mining skills to read and extract information form files and use the principles of thermodynamics to verify and validate numerical models of physiological systems, ensuring their accuracy and fidelity to real biological processes. As part of this work, I am currently developing a Python package designed to automate the verification of these numerical models, making the process more efficient and accessible to researchers.
             </p>
         </div>
 
@@ -57,7 +57,7 @@
                 Verification of numerical models
             </h2>
             <p>
-                Verification is the process of determining if we are doing the right job based on our plan and concept.  We are checking to see if we are missing any points and if we are doing the right job. As it is seen in the picture left to this paragraph, in the verification step, we are checking to see if we are making two sleeves or not (based on the plan), the size is the correct one or not, the color of the raw material is blue or not, and if we are missing any buttons? Just to note that we haven't tested and compared it with the real world yet. If we follow the construction rules correct, then we will be able to compare it to the real world.
+                Verification is the process of determining if we are doing the right job based on our plan and concept.  We are checking to see if we are missing any points and if we are doing the right job. This is very imprtant in numerical modelling where a mistake in conceptualization or in parameters can lead to catastrophic results. Read the story below to find out the importance of verification in modelling.
 
             </p>
             <h3>Mariner 1 catastrophe</h3>
@@ -79,15 +79,40 @@
                 Here comes the verification process. It is the process of testing the model's validity before it is put to work. This is done by verifying the correctness of the model based on the laws of physics and thermodynamics.
                 Other than that, we know that the human body is a complex system comprising many parts from nanoscale to macroscale working together. Knowledge of Mechanical and Electrical Engineering, as well as Chemistry is required in most systems of human bodies. A tool is required to help scientists test their models when they try different hypotheses to find new formulations to unravel the unknowns of human body. I have developed a tool using Python that can help scientists achieve this goal just by a simple command in Python.
             </p>
-            <div>
-            <p style="font-size: 1em; margin-bottom: 0;">
-                Refer to the following paper for more information:
+            <p>
+                Now, let's see how the tool works. TO be able to have a tool that can automatically read and verify models, there is a need to standardisation. Luckily, modellers have already thought about standardisation through developing models in XML formats. XML is a standard file format where all information and metadara are encapsulated inside tags.
+                My tool reads these XML files and extracts kinetic formulas for the reactions. Then, the tool looks for patterns used in mass action formulations. If a reaction obeys mass action kinetics, the tool parses the reaction and extracts the variables and parameters such as chemical compounds and reaction rate constants along with their values. Then, relevant matrices are constructed and the model is analysed by the matrices for acceptance or rejection of the model.
             </p>
-            <a class="paper-links" href="https://doi.org/10.1098/rspa.2023.0807" target="_blank">A review of the diverse applications of bond graphs in biology and physiology</a>
-            </div>
-
-            
+            <div>
             <a class="github-ref" href="https://github.com/Mehran-AG/BioMLVerify" target="_blank">Visit my GitHub repo for this code developed in Python</a>
+        </div>
+
+        <div class="item-container">
+            <h2>
+                Simulation of a solid tumor
+            </h2>
+            <img class="tumor-img" src="../images/tumor-microenv.png">
+            <p> Cancer is the second leading cause of death in Western countries, making it a critical focus for computational and data-driven studies in disease treatment. Simulating tumor growth and its vascular network requires advanced coding and modeling techniques. </p>
+            <p> Tumors exhibit highly adaptive behaviour, evading treatments and exploiting the body's cellular mechanisms for their growth. To study this, I developed a C++ simulation to model tumor growth under different conditions, tracking size, nutrient demands, and vascular expansion. This computational approach allowed me to analyse complex biological behaviours quantitatively and systematically. </p>
+            <p> To extend the insights from these simulations, I applied machine learning and neural networks to the generated data. This enabled predictions of tumor behaviour in scenarios beyond the original simulations, providing a powerful data-driven tool for exploring potential outcomes and understanding complex biological dynamics. </p>
+            <p style="font-size: 1em; margin-bottom: 0;">
+                Refer to the following papers for more information:
+            </p>
+            <a class="paper-links" href="https://doi.org/10.1038/s41598-022-13345-4" target="_blank">A spatiotemporal multi-scale computational model for FDG PET imaging at different stages of tumor growth and angiogenesis</a>
+            <a class="paper-links" href="https://doi.org/10.1016/j.apm.2021.12.033" target="_blank">A novel numerical and artificial intelligence based approach to study anti-angiogenic drugs: Endostatin</a>
+            <a class="paper-links" href="https://doi.org/10.1177/09544119211028380" target="_blank">Mathematical simulation and prediction of tumor volume using RBF artificial neural network at different circumstances in the tumor microenvironment</a>
+            <a class="paper-links" href="https://doi.org/10.1111/micc.12584" target="_blank">Mathematical modeling reveals how the density of initial tumor and its distance to parent vessels alter the growth trend of vascular tumors</a>
+
+            <a class="github-ref" href="https://github.com/Mehran-AG/AntiAngiogenesis" target="_blank">Visit my GitHub repo for this code developed in C++</a>
+
+
+            <video class="video-tumor" autoplay muted loop playsinline>
+                <source src="../videos/tumour-growth.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="video-caption">
+                Simulation of the growth of vessels towards a solid tumor
+            </p>
         </div>
 
         <div class="item-container">
@@ -111,44 +136,6 @@
                 <img src="../images/tube-bundles.png">
                 <p style="font-size: 1em;">Flow behaviors demonstrated for three aforementioned groups</p>
             </div>
-        </div>
-
-        <div class="item-container">
-            <h2>
-                Simulation of a solid tumor
-            </h2>
-            <img class="tumor-img" src="../images/tumor-microenv.png">
-            <p>
-                Cancer is the second leading cause of death in the western countries after cardiovascular diseases. Therefore, it is an important and interesting topic in disease treatment studies. It heavily requires coding to simulate the growth of the tumor with its unique vascular network.
-            </p>
-            <p>
-                As shown in the image, tumors behave remarkably intelligently within tissue, evading various treatments and drugs. They are so adaptive that they exploit the body's own cellular mechanisms for their benefit.
-
-                It is well known that cancerous cells proliferate faster than normal cells. As a result, they require more nutrients. However, the existing vascular network is often insufficient to supply these increased demands. To overcome this, tumor cells secrete signaling molecules—typically involved in wound healing and tissue repair—to stimulate the formation of new blood vessels (a process known as angiogenesis).
-
-                These new vessels sprout from existing ones and grow toward the tumor, forming an expanded vascular network. This enables the tumor to receive more nutrients and oxygen, supporting its continued growth. Over time, the tumor can become large enough to invade surrounding tissues and enter larger blood vessels, facilitating metastasis to other parts of the body.
-            </p>
-            <p>
-                I gain much interest insimulation of this behaviour in tumors. Henceforth, I developed a code using C++ to study tumor size and capability to grow at different scenarios inside a tissue. Please see below the result of my simulation.
-            </p>
-            <p style="font-size: 1em; margin-bottom: 0;">
-                Refer to the following papers for more information:
-            </p>
-            <a class="paper-links" href="https://doi.org/10.1038/s41598-022-13345-4" target="_blank">A spatiotemporal multi-scale computational model for FDG PET imaging at different stages of tumor growth and angiogenesis</a>
-            <a class="paper-links" href="https://doi.org/10.1016/j.apm.2021.12.033" target="_blank">A novel numerical and artificial intelligence based approach to study anti-angiogenic drugs: Endostatin</a>
-            <a class="paper-links" href="https://doi.org/10.1177/09544119211028380" target="_blank">Mathematical simulation and prediction of tumor volume using RBF artificial neural network at different circumstances in the tumor microenvironment</a>
-            <a class="paper-links" href="https://doi.org/10.1111/micc.12584" target="_blank">Mathematical modeling reveals how the density of initial tumor and its distance to parent vessels alter the growth trend of vascular tumors</a>
-
-            <a class="github-ref" href="https://github.com/Mehran-AG/AntiAngiogenesis" target="_blank">Visit my GitHub repo for this code developed in C++</a>
-
-
-            <video class="video-tumor" autoplay muted loop playsinline>
-                <source src="../videos/tumour-growth.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p class="video-caption">
-                Simulation of the growth of vessels towards a solid tumor
-            </p>
         </div>
 
         <div class="item-container">
