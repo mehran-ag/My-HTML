@@ -118,13 +118,16 @@ body{
     float: left;
     width: 40%;
     height: auto;
+    
     margin-right: 1rem;
     margin-bottom: .5rem;
     border: none;
 }
 
 .tumor-img{
-    max-width: 420px;
+    max-width: 350px;
+    object-fit: contain;
+    width: 25%;
 }
 
 .video-tumor {
